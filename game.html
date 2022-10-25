@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Math game</title>
+    <li rel="stylesheet" href="game.css" type="text/css";>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body style="background: rgb(39,253,207);
+background: linear-gradient(117deg, rgba(39,253,207,1) 0%, rgba(43,95,100,1) 15%, rgba(26,150,158,1) 30%, rgba(255,200,123,1) 45%, rgba(227,148,231,1) 60%, rgba(229,168,232,1) 75%, rgba(0,152,173,1) 96%, rgba(236,236,236,1) 100%);">
+<h1 style="color:aqua; font-size: 50px; font-weight: 700; text-align:center;">Math Game</h1>
+<center>
+<div style="background-color:white; text-align:center; display: inline-block; border-radius: 20px;">  
+<h1 style="display: inline-block; color: orange; font-weight:700 ;">Score</h1>
+&nbsp;&nbsp;&nbsp;
+<h1 style="display: inline-block; color: aqua; font-weight:700 ;" id="player1_name"></h1>&nbsp;&nbsp;<h1 id="player1_score" style="display: inline-block; color: aqua; font-weight:700 ;"></h1>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<h1 style="display: inline-block; color: aqua; font-weight: 700;" id="player2_name"></h1>&nbsp;&nbsp;<h1 id="player2_score" style="display: inline-block; color: aqua; font-weight:700 ;"></h1>
+</div>
+</center>
+<section id="QandA_t" >
+<center>
+    <div>
+<h1 style=" color: aqua; font-weight:700 ;" id="qestion_turn"></h1>
+<h1 style=" color: aqua; font-weight:700 ;" id="answer_turn"></h1>
+
+</div>
+</center>
+
+</section>
+<br><br>
+<center>
+<div id="Ans_sec" style="background-color: white; border-radius: 25px; border-top: darkcyan; padding-left: 250px; padding-right: 250px;">
+<br><br>
+</div>
+<br><br>
+<div style="background-color: white; border-radius: 25px; border-top: darkcyan; padding-left: 250px; padding-right: 250px;">
+<br>
+    <input type="number" id="num_1" placeholder="Number 1" style="border-radius:25px; width:250px; border-color: darkcyan; text-align: center;  ">
+<br>
+    <h1>X</h1>
+<br>
+<input type="number" id="num_2" placeholder="Number 2" style="border-radius:25px; width:250px; border-color: darkcyan; text-align: center;  ">
+<br><br>
+<button class="btn btn-success" style="font-size: 30px; border-radius: 25px; width: 150px;" onclick="send();">Send</button>
+<br>
+<br>
+</div> 
+
+</center>
+
+
+</body>
+<script src="game.js"></script>
+
+</html>
